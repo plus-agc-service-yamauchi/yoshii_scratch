@@ -94,12 +94,155 @@ small {
 =============*/
 @media (max-width: 575.98px) {
 
-    .pc,
-    [hidden] {
-        display: none !important;
+    /*SP ドロワー ナビゲーション*/
+    nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -500px;
+        width: 80%;
+        height: 100%;
+        background: #ffffff;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transition: all .5s;
+        z-index: 3;
+        opacity: 0;
     }
 
+    .open nav {
+        right: 0;
+        opacity: 1;
+    }
 
+    nav .inner {
+        padding: 25px;
+    }
+
+    nav .inner ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav .inner ul li {
+        position: relative;
+        margin: 0;
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+    nav .inner ul li a {
+        display: block;
+        color: #333;
+        font-size: 14px;
+        padding: 1em;
+        text-decoration: none;
+        transition-duration: 0.2s;
+    }
+
+    nav .inner ul li a:hover {
+        background: #F5F7F6;
+    }
+
+    /*SP ドロワー トグルボタン*/
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open .toggle_btn span {
+        background-color: #333;
+    }
+
+    .open .toggle_btn span:nth-child(1) {
+        -webkit-transform: translateY(10px) rotate(-315deg);
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open .toggle_btn span:nth-child(3) {
+        -webkit-transform: translateY(-10px) rotate(315deg);
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    /*SP ドロワー ドロップダウン*/
+
+    .menu_list .nav_item {
+        position: relative;
+    }
+
+    .nav_item span {
+        margin-left: 10px;
+    }
+
+    .menu_list .nav_item .panel {
+        overflow: hidden;
+        width: 100%;
+        display: none;
+    }
+
+    .menu_list .nav_item .panel .panel_item {
+        border: none;
+    }
+
+    .menu_list .nav_item {
+        display: block;
+    }
+
+    /*SP ドロワー マスク*/
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        opacity: .8;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    /*SP メイン コンテンツ*/
     .main {
         width: 100%;
     }
@@ -112,10 +255,69 @@ small {
         display: none;
     }
 
+    .section_overview {
+        padding: 20px 20px;
+        background: #F8FAF9;
+    }
+
+    .section_overview p {
+        text-align: center;
+    }
+
+    .section_overview h2 {
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .section_contents {
+        padding: 20px 20px;
+        background: #F8FAF9;
+    }
+
+    .section_info {
+        background: #EDF3F0;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .section_info p {}
+
+    .section_info h1 {
+        text-align: center;
+        font-size: 130%;
+    }
+
+    .section_info h1::before {
+        display: inline;
+        content: "";
+        background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        padding-right: 30px;
+    }
+
+    .section_info a {
+        background: #FFFFFF;
+        color: #333;
+        border: solid 1px #256643;
+        border-radius: 5px;
+        padding: 20px;
+        text-decoration: none;
+        margin-right: 10px;
+        display: block;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
+    /*SP スライダー非表示*/
     #slider {
         display: none;
     }
 
+    /*SP ヘッダーバー*/
     #sp-headbar {
         position: fixed;
         top: 0;
@@ -143,6 +345,12 @@ small {
         padding-right: 20px;
     }
 
+    #sp-headbar a {
+        text-decoration: none;
+        color: #256643;
+    }
+
+    /*SP トップページ*/
     .sp-top-head {
         background: url(../img/sp/top_head_bg.jpg) no-repeat;
         background-size: cover;
@@ -151,67 +359,17 @@ small {
         margin-top: 60px;
     }
 
-    .about_must_head {
-        background: url(../img/about_musthead_bg.jpg) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 300px;
-        position: relative;
-        margin-top: 60px;
-    }
-
-    .about_must_head h2 {
+    .top_hero_text {
         position: absolute;
+        width: 30%;
         top: 50%;
-        right: 5%;
+        left: 0%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        font-size: 25px;
-        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
-        margin: 0;
     }
 
-    .about_box {
-        background: #FFFFFF;
-        font-size: 100%;
-        text-align: center;
-        padding: 40px 20px;
-        color: #256643;
-        margin: 20px 40px;
-        align-items: center;
-        border-radius: 5px;
-    }
-
-    .about_box p {
-        margin: 0;
-    }
-
-    .about_flower {
-        background: url(../img/about_flower_bg.jpg) no-repeat;
-        background-size: cover;
-        padding: 40px 20px;
-        display: flex;
-    }
-
-    .about_profile {
-        margin: 0 20px;
-    }
-
-    .about_profile h2 {
-        text-align: center;
-    }
-
-    .about_profile table {
-        border-collapse: collapse;
-        border-spacing: 1em .5em;
-    }
-
-    .about_profile tr {
-        border-bottom: solid 1px #333;
-        border-spacing: 10px 100px;
-    }
-
+    /*SP プランページ*/
     .plan_must_head {
         background: url(../img/plan_musthead_bg.jpg) no-repeat;
         background-size: cover;
@@ -275,12 +433,11 @@ small {
         text-align: left;
     }
 
-    /* モーダルCSS */
+    /*SP プランページ モーダルCSS */
     .modalArea {
         display: none;
         position: fixed;
         z-index: 2;
-        /*サイトによってここの数値は調整 */
         top: 62px;
         left: 0;
         width: 100%;
@@ -311,7 +468,6 @@ small {
         cursor: pointer;
     }
 
-    /* 以下ボタンスタイル */
     .general_button {
         padding: 20px 10px;
         background-color: #fff;
@@ -346,37 +502,7 @@ small {
         margin: 20px 0;
     }
 
-    .top_hero_text {
-        position: absolute;
-        width: 30%;
-        top: 50%;
-        left: 0%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-    }
-
-    .order_must_head {
-        background: url(../img/order_musthead_bg.jpg) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 300px;
-        position: relative;
-        margin-top: 60px;
-    }
-
-    .order_must_head h2 {
-        position: absolute;
-        top: 50%;
-        right: 5%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        font-size: 25px;
-        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
-        margin: 0;
-    }
-
+    /*SP よくあるご質問ページ*/
     .faq_must_head {
         background: url(../img/faq_musthead_bg.jpg) no-repeat;
         background-size: cover;
@@ -439,114 +565,6 @@ small {
         border: 0;
     }
 
-    .section_overview {
-        padding: 20px 20px;
-        background: #F8FAF9;
-    }
-
-    .section_overview p {
-        text-align: center;
-    }
-
-    .section_overview h2 {
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .section_contents {
-        padding: 20px 20px;
-        background: #F8FAF9;
-    }
-
-    .section_info {
-        background: #EDF3F0;
-        display: flex;
-        flex-direction: column;
-        padding: 20px 20px;
-    }
-
-    .section_info p {}
-
-    .section_info h1 {
-        text-align: center;
-        font-size: 130%;
-    }
-
-    .section_info h1::before {
-        display: inline;
-        content: "";
-        background-image: url(../img/logo.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 100px;
-        width: 100px;
-        padding-right: 30px;
-    }
-
-    .section_info a {
-        background: #FFFFFF;
-        color: #333;
-        border: solid 1px #256643;
-        border-radius: 5px;
-        padding: 20px;
-        text-decoration: none;
-        margin-right: 10px;
-        display: block;
-        text-align: center;
-        margin: 0 0 10px 0;
-    }
-
-    .fpoint {
-        background: #FFFDF5;
-        padding: 15px;
-        border-radius: 5px;
-        display: block;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .flex-column {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .img-responsive {
-        width: 100%;
-    }
-
-    .footer {
-        padding: 20px;
-        font-size: 70%;
-    }
-
-    .footer_nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .footer_nav p::after {
-        content: "";
-        margin-right: 10px;
-        padding-right: 10px;
-    }
-
-    .footer a {
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
-    .faq_call_wrap {
-        background: #f7f9f8;
-        padding: 50px 0;
-        font-size: 140%;
-        font-weight: normal;
-    }
-
     .faq_call {
         background: url(../img/faq_call.jpg) no-repeat;
         background-size: cover;
@@ -555,7 +573,6 @@ small {
         box-shadow: 3px 3px 3px 3px rgba(200, 200, 200, 0.1);
         background-position: center right;
     }
-
 
     .faq_button {
         background: #EAF0ED;
@@ -574,11 +591,6 @@ small {
     .faq_call img {
         margin: 20px 0;
         width: 100%;
-    }
-
-    hr.faq {
-        background: #256643;
-        border: 0;
     }
 
     .card {
@@ -654,162 +666,148 @@ small {
         margin-right: 5px;
     }
 
-    .hidden {
-        display: none;
-    }
 
-    /*ドロワー ナビゲーション*/
-    nav {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: -500px;
-        width: 80%;
-        height: 100%;
-        background: #ffffff;
-        overflow-x: hidden;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        transition: all .5s;
-        z-index: 3;
-        opacity: 0;
-    }
-
-    .open nav {
-        right: 0;
-        opacity: 1;
-    }
-
-    nav .inner {
-        padding: 25px;
-    }
-
-    nav .inner ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav .inner ul li {
+    /*SP 吉井造花店についてページ*/
+    .about_must_head {
+        background: url(../img/about_musthead_bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
         position: relative;
-        margin: 0;
-        border-bottom: 1px solid #EEEEEE;
+        margin-top: 60px;
     }
 
-    nav .inner ul li a {
-        display: block;
-        color: #333;
-        font-size: 14px;
-        padding: 1em;
-        text-decoration: none;
-        transition-duration: 0.2s;
-    }
-
-    nav .inner ul li a:hover {
-        background: #F5F7F6;
-    }
-
-    /*ドロワー トグルボタン*/
-    .toggle_btn {
-        display: block;
-        position: fixed;
-        top: 15px;
-        right: 15px;
-        width: 30px;
-        height: 30px;
-        transition: all .5s;
-        cursor: pointer;
-        z-index: 3;
-    }
-
-    .toggle_btn span {
-        display: block;
+    .about_must_head h2 {
         position: absolute;
-        left: 0;
-        width: 30px;
-        height: 2px;
-        background-color: #333;
-        border-radius: 4px;
-        transition: all .5s;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        font-size: 25px;
+        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
+        margin: 0;
     }
 
-    .toggle_btn span:nth-child(1) {
-        top: 4px;
-    }
-
-    .toggle_btn span:nth-child(2) {
-        top: 14px;
-    }
-
-    .toggle_btn span:nth-child(3) {
-        bottom: 4px;
-    }
-
-    .open .toggle_btn span {
-        background-color: #333;
-    }
-
-    .open .toggle_btn span:nth-child(1) {
-        -webkit-transform: translateY(10px) rotate(-315deg);
-        transform: translateY(10px) rotate(-315deg);
-    }
-
-    .open .toggle_btn span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .open .toggle_btn span:nth-child(3) {
-        -webkit-transform: translateY(-10px) rotate(315deg);
-        transform: translateY(-10px) rotate(315deg);
-    }
-
-    /*ドロワー ドロップダウン*/
-
-    .menu_list .nav_item {
-        position: relative;
-    }
-
-    .nav_item span {
-        margin-left: 10px;
-    }
-
-    .menu_list .nav_item .panel {
-        overflow: hidden;
-        width: 100%;
-        display: none;
-    }
-
-    .menu_list .nav_item .panel .panel_item {
-        border: none;
-    }
-
-    .menu_list .nav_item {
-        display: block;
-    }
-
-    /*ドロワー マスク*/
-    #mask {
-        display: none;
-        transition: all .5s;
-    }
-
-    .open #mask {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .about_box {
         background: #FFFFFF;
-        opacity: .8;
-        z-index: 2;
-        cursor: pointer;
+        font-size: 100%;
+        text-align: center;
+        padding: 40px 20px;
+        color: #256643;
+        margin: 20px 40px;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about_box p {
+        margin: 0;
+    }
+
+    .about_flower {
+        background: url(../img/about_flower_bg.jpg) no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+        display: flex;
+    }
+
+    .about_profile {
+        margin: 0 20px;
+    }
+
+    .about_profile h2 {
+        text-align: center;
+    }
+
+    .about_profile table {
+        border-collapse: collapse;
+        border-spacing: 1em .5em;
+    }
+
+    .about_profile tr {
+        border-bottom: solid 1px #333;
+        border-spacing: 10px 100px;
+    }
+
+    /*SP 御供物・御供花ページ*/
+    .order_must_head {
+        background: url(../img/order_musthead_bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .order_must_head h2 {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        font-size: 25px;
+        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
+        margin: 0;
+    }
+
+
+    /*フッター*/
+    .footer {
+        padding: 20px;
+        font-size: 70%;
+    }
+
+    .footer_nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_nav p::after {
+        content: "";
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #FFFFFF;
     }
 
     .copy {
         text-align: center;
         font-size: 80%;
         flex: 100%;
+    }
+
+    /*SP 専用クラス*/
+    .fpoint {
+        background: #FFFDF5;
+        padding: 15px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+
+
+    .pc,
+    [hidden] {
+        display: none !important;
     }
 }
 
@@ -847,9 +845,6 @@ small {
 #画面サイズが最小1200pxの場合
 =============*/
 @media (min-width: 1200px) {
-
-    /*ヘッダー*/
-    header {}
 
     /*ドロワー ナビゲーション*/
     nav {
@@ -1384,7 +1379,7 @@ small {
         border-spacing: 10px 100px;
     }
 
-    /*御供物・御供花のご注文*/
+    /*御供物・御供花のご注文ページ*/
     .order_must_head {
         background: url(../img/order_musthead_bg.jpg) no-repeat;
         background-size: cover;
@@ -1577,6 +1572,7 @@ small {
         flex: 100%;
     }
 
+    /*PC 専用クラス*/
     .sp,
     [hidden] {
         display: none !important;
