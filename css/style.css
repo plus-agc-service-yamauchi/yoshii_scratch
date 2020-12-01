@@ -356,6 +356,89 @@ small {
         -ms-transform: translateY(-50%);
     }
 
+    .order_must_head {
+        background: url(../img/order_musthead_bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .order_must_head h2 {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        font-size: 25px;
+        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
+        margin: 0;
+    }
+
+    .faq_must_head {
+        background: url(../img/faq_musthead_bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .faq_must_head h2 {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        font-size: 25px;
+        text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
+        margin: 0;
+    }
+
+    .faq_content {
+        background: #FFFFFF;
+        padding: 10px 10px;
+        font-size: 100%;
+        margin-bottom: 40px;
+    }
+
+    .que::before {
+        display: inline;
+        content: "";
+        background-image: url(../img/q.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+        padding-right: 30px;
+    }
+
+    .ans::before {
+        display: inline;
+        content: "";
+        background-image: url(../img/a.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+        padding-right: 30px;
+    }
+
+    .faq_call_wrap {
+        background: #f7f9f8;
+        padding: 50px 0;
+        font-size: 140%;
+        font-weight: normal;
+    }
+
+    hr.faq {
+        background: #256643;
+        border: 0;
+    }
+
     .section_overview {
         padding: 20px 20px;
         background: #F8FAF9;
