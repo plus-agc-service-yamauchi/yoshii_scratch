@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <meta name="theme-color" content="#256643">
 </head>
 
@@ -106,7 +107,22 @@
                 <p>時代の流れに合わせた様々なお葬式に、まごころ込めてご奉仕させていただきます。</p>
             </div>
             <div class="section_contents">
-                
+                <div style="position:relative;">
+                    <div id="block-1">
+                        <div id="inner-block"><img src="img/top_1.png" alt="" class="img-responsive wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"></div>
+                    </div>
+                    <div id="block-2">
+                        <h2 class="text-main" style="margin-left:200px;">吉井造花店について</h2>
+                    </div>
+                </div>
+                <div style="position:relative;">
+                    <div id="block-1">
+                        <div id="inner-block"><img src="img/top_1.png" alt="" class="img-responsive wow animate__animated animate__fadeInLeft" data-wow-duration="10s" data-wow-delay="5s" data-wow-offset="10"></div>
+                    </div>
+                    <div id="block-2">
+                        <h2 class="text-main" style="margin-left:200px;">吉井造花店について</h2>
+                    </div>
+                </div>
             </div>
             <!-- メイン  基本情報 -->
             <div class="section_info">
@@ -181,6 +197,10 @@
     <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/slide.js"></script>
+    <script src="js/WOW.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
     window.ga = function() { ga.q.push(arguments) };
