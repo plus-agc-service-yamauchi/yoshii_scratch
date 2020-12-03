@@ -2871,7 +2871,7 @@ small {
 
     .top_hero_text {
         position: absolute;
-        width: 15%;
+        width: 12%;
         top: 50%;
         left: 0%;
         transform: translateY(-50%);
@@ -3165,7 +3165,7 @@ small {
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-        bottom: 130px;
+        bottom: 30px;
         padding: 20px;
         box-shadow: 1px 1px 5px rgba(202, 204, 202, 0.3);
         border-radius: 3px;
@@ -3544,23 +3544,24 @@ small {
 
     /*スライダー*/
     #slider {
-        height: 100vh;
         position: relative;
     }
 
     #slider img {
         width: 100%;
-        height: 100vh;
     }
 
     #slider p {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
     }
 
     #slider .hero_text {
-        width: 200px;
+        max-width: 100%;
     }
 
     /*メイン コンテンツ*/
@@ -3695,7 +3696,7 @@ small {
 
     .bg-enshrine {
         background: #dfe6da;
-        padding: 100px;
+        padding: 50px;
     }
 
     .bg-enshrine h3 {
@@ -3707,7 +3708,7 @@ small {
         position: relative;
         z-index: 1;
         justify-content: space-around;
-
+        margin: 10px;
     }
 
     .card_general_description {
@@ -3751,7 +3752,7 @@ small {
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-        bottom: 100px;
+        bottom: 30px;
         padding: 20px;
         box-shadow: 1px 1px 5px rgba(202, 204, 202, 0.3);
         border-radius: 3px;
@@ -3772,7 +3773,7 @@ small {
 
     .card_enshrine_description span {
         color: #65997d;
-        font-size: 160%;
+        font-size: 130%;
         margin-right: 5px;
     }
 
@@ -4152,5 +4153,9 @@ small {
 
     .mt100 {
         margin-top: 100px;
+    }
+
+    .m0 {
+        margin: 0;
     }
 }
