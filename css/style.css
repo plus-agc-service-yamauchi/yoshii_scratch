@@ -3585,7 +3585,9 @@ small {
     }
 
     .section_title {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
+        font-size: 36px;
+        letter-spacing: 2.4px;
     }
 
     .section_contents {
@@ -4225,5 +4227,11 @@ small {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .section_title_p p {
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 4.32px;
     }
 }
