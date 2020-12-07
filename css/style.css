@@ -3650,7 +3650,7 @@ small {
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        font-size: 40px;
+        font-size: 60px;
         text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
         margin: 0;
     }
@@ -3841,7 +3841,7 @@ small {
         background: url(../img/faq_call.jpg) no-repeat;
         background-size: cover;
         padding: 70px 100px;
-        margin: 50px 100px;
+        margin: 50px 40px;
         border-radius: 5px;
         box-shadow: 3px 3px 3px 3px rgba(200, 200, 200, 0.1);
     }
@@ -3885,14 +3885,14 @@ small {
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        font-size: 40px;
+        font-size: 60px;
         text-shadow: 3px 3px 20px rgba(253, 255, 253, 1);
         margin: 0;
     }
 
     .about_box {
         background: #FFFFFF;
-        font-size: 100%;
+        font-size: 24px;
         text-align: center;
         padding: 40px 20px;
         color: #256643;
@@ -3974,7 +3974,7 @@ small {
 
     /*メイン 基本情報*/
     .section_info {
-        padding: 70px 80px;
+        padding: 70px 50px;
         background: #E8EEEB;
         text-align: center;
     }
@@ -4194,6 +4194,7 @@ small {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 
     #block-3 {
@@ -4234,4 +4235,21 @@ small {
         line-height: 48px;
         letter-spacing: 4.32px;
     }
+
+    #block-2 h2 {
+        font-size: 36px;
+    }
+    #block-2 p {
+        margin-left: 200px;
+    }
+
+    #block-4 h2 {
+        font-size: 36px;
+    }
+
+    .section_sub{
+        font-size:48px;
+        margin:90px 0 50px 0;
+    }
+
 }

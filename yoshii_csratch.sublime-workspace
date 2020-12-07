@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"section",
+				"section_sub\t(style.css)"
+			],
+			[
+				"font",
+				"font-kerning\tproperty"
+			],
+			[
+				"flex-",
+				"flex-between\tabc"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"float",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"align-items",
+				"align-items-center\tabc"
+			],
+			[
+				"justi",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"btn-outline",
+				"btn-outline-dark \tBootstrap 4 Class"
+			],
+			[
+				"align-item",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"list-un",
+				"list-unstyled \tBootstrap 4 Class"
+			],
+			[
+				"u-",
+				"u-full-width\t(main.css)"
+			],
+			[
+				"bg",
+				"bg-primary \tBootstrap 4.4"
+			],
+			[
+				"view",
+				"view_timer\tabc"
+			],
+			[
+				"list-iline",
+				"list-inline-item \tBootstrap 4 Class"
+			],
+			[
+				"jus",
+				"justify-content-center \tBootstrap 4 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"minifi",
+				"Minify Javascript/CSS to file"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/plan.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/about.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/css/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/top.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/css/pc.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/css/common.css",
+		"/Users/plus-yamauchi/damp/htdocs/html5-boilerplate_v8/top.html",
+		"/Users/plus-yamauchi/damp/htdocs/html5-boilerplate_v8/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/faq.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii_scratch/order.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/single.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/sp/top.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/sp/news.html",
+		"/Users/plus-yamauchi/Desktop/物産展出店予定.html",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/order.html",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/css/style.css",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/about.html",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/img/abou_profile_list.svg",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/faq.html",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/plan.html",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/js/menu.js",
+		"/Users/plus-yamauchi/Desktop/yoshii_scratch/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/plan.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/common.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/main.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/js/drawerNav.js",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/jquery.fatNav.css",
+		"/Users/plus-yamauchi/Desktop/dev_1/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/elm/lifestyle/index.html",
+		"/Users/plus-yamauchi/lamp/dev/orkagym/index.php",
+		"/Users/plus-yamauchi/lamp/dev/orkagym/header.php",
+		"/Users/plus-yamauchi/lamp/dev/orkagym/footer.php",
+		"/Users/plus-yamauchi/damp/htdocs/elm/lifestyle/vol9.html",
+		"/Users/plus-yamauchi/damp/htdocs/elm/lifestyle/vol8.html",
+		"/Users/plus-yamauchi/Desktop/sample/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/index.html",
+		"/Users/plus-yamauchi/Desktop/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/drawer.min.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/js/drawer.min.js",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/nav.css",
+		"/Users/plus-yamauchi/vuesax-example/src/App.vue",
+		"/Users/plus-yamauchi/vuesax-example/src/main.js",
+		"/Users/plus-yamauchi/vuesax-example/index.html",
+		"/Users/plus-yamauchi/Desktop/startbootstrap-simple-sidebar-gh-pages/css/simple-sidebar.css",
+		"/Users/plus-yamauchi/Desktop/startbootstrap-simple-sidebar-gh-pages/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/css/normalize.css",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/404.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/js/main.js",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/browserconfig.xml",
+		"/Users/plus-yamauchi/Desktop/node_modules/sidebar-skeleton-compostrap/index.html",
+		"/Users/plus-yamauchi/Desktop/node_modules/sidebar-skeleton-compostrap/dist/css/sidebar.css",
+		"/Users/plus-yamauchi/Desktop/node_modules/sidebar-skeleton-compostrap/demo.html",
+		"/Users/plus-yamauchi/Desktop/sample/css/style.css",
+		"/Users/plus-yamauchi/Desktop/sample/js/main.js",
+		"/Users/plus-yamauchi/Desktop/sample/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/iPortfolio/assets/css/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/iPortfolio/index.html",
+		"/Users/plus-yamauchi/Downloads/iPortfolio/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/yoshii/js/style.js",
+		"/Users/plus-yamauchi/Desktop/program/cart_seisan.html",
+		"/Users/plus-yamauchi/damp/htdocs/elm/lifestyle/sample.html",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com_2/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com_2/css/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/plus/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/hohoemi/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/speechtotext/speechtotext.py",
+		"/Users/plus-yamauchi/Desktop/speechtotext.py",
+		"/Users/plus-yamauchi/Desktop/checkbox2.html",
+		"/Users/plus-yamauchi/Desktop/checkbox.html",
+		"/Users/plus-yamauchi/lamp/dev/linkmore_sample/form.html",
+		"/Users/plus-yamauchi/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com_2/js/preloader.js",
+		"/Users/plus-yamauchi/lamp/dev/aorld/sp/participants.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/html/information_disclosure.html",
+		"/Users/plus-yamauchi/Downloads/Bootstrap-4-templates-master/full-page-image-carousel/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com_2/css/stylish-portfolio.min.css",
+		"/Users/plus-yamauchi/Downloads/startbootstrap-stylish-portfolio-gh-pages/css/stylish-portfolio.css",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com/css/style.css",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com/js/slider.js",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com/.htaccess",
+		"/Users/plus-yamauchi/lamp/dev/aorld/html/message.html",
+		"/Users/plus-yamauchi/damp/htdocs/fujigenboku.com/thanks.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/news/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/news/20201005/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/thanks.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/storelist_4.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/storelist_3.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/storelist_2.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/storelist.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/qa.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/order.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/facility.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/contact.html",
+		"/Users/plus-yamauchi/damp/htdocs/fukaura-marugoto.com/news/single.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/sitemap.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/offering.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/plans.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/profile.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/facility.html",
+		"/Users/plus-yamauchi/damp/htdocs/kasai/access.html",
+		"/Users/plus-yamauchi/damp/htdocs/plus/recruit/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/plus/members/index.html",
+		"/Users/plus-yamauchi/damp/htdocs/plus/recruit/webdesigner.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/html/top.html",
+		"/Users/plus-yamauchi/lamp/dev/aorld/html/gnavi.html",
+		"/Users/plus-yamauchi/damp/htdocs/celebrite/2594/item_2594.xhtml",
+		"/Users/plus-yamauchi/damp/htdocs/celebrite/2594/item_2593.xhtml"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "yoshii_csratch.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
